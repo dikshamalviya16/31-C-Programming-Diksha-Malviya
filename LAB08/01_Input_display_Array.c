@@ -2,23 +2,20 @@
 
 int main()
 {
-    int a[100], n, i;
+    int a[5], i;
 
-    printf("Enter number of elements: ");
-    scanf("%d", &n);
+    printf("Enter 5 elements:\n");
 
-    printf("Enter array elements:\n");
-
-    for (i = 0; i < n; i++)
+    for (i = 0; i < 5; i++)
     {
         scanf("%d", &a[i]);
     }
 
     printf("Array elements are:\n");
 
-    for (i = 0; i < n; i++)
+    for (i = 0; i < 5; i++)
     {
-        printf("%d ", a[i]);
+        printf("%d\n", a[i]);
     }
 
     return 0;
